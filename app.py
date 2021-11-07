@@ -12,13 +12,6 @@ weather_data = requests.get(base_url).json()
 
 pprint(weather_data)
 
-'''
-def get_weather(city):
-    base_url = "https://api.openweathermap.org/data/2.5/weather?appid="+api_key+"&q="+city+""
-    weather_data = requests.get(base_url).json()
-    return weather_data
-get_weather (city)
-'''
 
 
 
